@@ -1,0 +1,12 @@
+requests
+python-dotenv
+cloudscraper
+beautifulsoup4
+selenium
+faiss-cpu
+numpy
+rank-bm25
+sentence-transformers
+streamlit
+pandas
+Pillow

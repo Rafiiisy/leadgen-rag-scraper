@@ -1,0 +1,57 @@
+/* === Force Rubik Font App-wide === */
+body,
+html,
+.main,
+.block-container,
+div,
+p,
+span,
+input,
+textarea,
+label,
+button {
+    font-family: 'Poppins', sans-serif !important;
+    color: #ffff !important;
+}
+/* === Markdown / Headings === */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-family: 'Poppins', sans-serif !important;
+    color: #6c44cc !important;
+    font-weight: 500;
+}
+
+p,
+li {
+    color: #ffff !important;
+}
+
+/* === Sidebar and Header === */
+div[data-testid="stSidebar"] {
+    background-color: #f7f9fc !important;
+}
+
+div[data-testid="stHeader"] {
+    background-color: #ffffff !important;
+    color: #ccc !important;
+}
+
+/* === Inputs and Buttons === */
+input,
+textarea,
+.stButton button {
+    background-color: #262730 !important;
+    color: #ffff !important;
+    border: 1px solid #ccc !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.stButton button:hover {
+    background-color: #6c44cc !important;
+    cursor: pointer;
+}
